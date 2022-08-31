@@ -73,5 +73,32 @@ php artisan serve
 http://localhost:8000/
 ```
 
+-Api End Point
 
+1. Show Artist (with albums and singles)
 
+```
+http://localhost:8000/artist/1
+```
+
+2. Show Albums (with songs)
+
+```
+http://localhost:8000/album/1
+```
+
+3. Show Song (with the artist name, and album name and year [if any])
+
+```
+http://localhost:8000/song/1
+```
+4. List Artists (with number of albums and singles)
+
+```
+http://localhost:8000/artist
+```
+5. List Songs (with name matching a search parameter)
+
+```
+http://localhost:8000/song?parameter=qu
+```
