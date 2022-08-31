@@ -30,7 +30,7 @@ git clone https://github.com/mohdkaif/music-lib.git
 ```
 - go to directory
 ```
-cd task_manage
+cd music-lib
 ```
 - Run Composer Install
 ```
