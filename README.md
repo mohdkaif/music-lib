@@ -23,6 +23,7 @@ and relationships.
 - PHP 8.1 installation with required all extension related to php
 
 - Composer 
+- Laravel 9
 
 ```
 git clone https://github.com/mohdkaif/music-lib.git
@@ -57,7 +58,11 @@ chown -R www-data.www-data /var/www/project_dir_name/storage
 ```
 
 ```
-php artisan migrate
+php artisan migrate 
+```
+
+```
+php artisan db:seed 
 ```
 
 ```
